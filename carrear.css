@@ -1,0 +1,365 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.logo {
+  display: flex;
+  gap:20px;
+}
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    position: relative;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    gap:30px;
+    margin-top: -10px;
+}
+nav ul li{
+    list-style-type: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+nav ul li a:hover{
+    background-color: blueviolet;
+    padding: 15px 15px 15px 15px;
+    border-radius: 16px;
+}
+.menu-icon{
+    font-size: 30px;
+    display: none;
+}
+.logo h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.image2{
+    margin-top:640px;
+    width:200px;
+    left:20px;
+}
+.four{
+    margin-top:0px;
+    margin-left:0px;
+}
+.class img{
+    position: absolute;
+    background-color: black;
+    width:1200px;
+    height: 600px;
+    padding:600px;
+}
+.line1{
+    background-color:aqua;
+    width:95px;
+    height:5px;
+    position:absolute;
+    margin-left:382px;
+    top:1540px;
+}
+.ourservices{
+    text-decoration: none;
+    position:absolute;
+    margin-left:380px;
+    top:1550px;
+    line-height: 30px;
+}
+.ourservices a{
+    text-decoration: none;
+}
+.line2{
+    background-color:rgb(248, 152, 27);
+    width:75px;
+    height:5px;
+    position:absolute;
+    margin-left:682px;
+    top:1540px;
+}
+.company{
+    position:absolute;
+    margin-left:680px;
+    top:1550px;
+    line-height: 30px;
+}
+.company a{
+    text-decoration: none;
+}
+.line3{
+    background-color:rgb(184, 250, 29);
+    width:75px;
+    height:5px;
+    position:absolute;
+    margin-left:880px;
+    top:1540px;
+}
+.resources{
+    position:absolute;
+    margin-left:880px;
+    top:1550px;
+    line-height: 30px;
+}
+.resources a{
+    text-decoration: none;
+}
+.line4{
+    background-color:rgb(250, 12, 24);
+    width:75px;
+    height:5px;
+    position:absolute;
+    margin-left:1150px;
+    top:1540px;
+}
+.followus{
+    position:absolute;
+    margin-left:1150px;
+    top:1550px;
+    line-height: 30px;
+}
+.whatsapp {
+    position:absolute;
+    top:1608px;
+    margin-left:1100px;
+}
+.insta {
+    position:absolute;
+    top:1608px;
+    margin-left:1170px;
+}
+.fb {
+    position:absolute;
+    top:1608px;
+    margin-left:1240px;
+}
+.call {
+    position:absolute;
+    top:1680px;
+    margin-left:1170px;
+}
+.linkedin {
+    position:absolute;
+    top:1740px;
+    margin-left:1100px;
+}
+.utube {
+    position:absolute;
+    top:1740px;
+    margin-left:1170px;
+}
+.twitter {
+    position:absolute;
+    top:1740px;
+    margin-left:1240px;
+}
+.work h3{
+   margin-top: 200px;
+   margin-left: 250px ;
+   font-size: 24px;
+}
+.work p{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top:30px;
+    margin-bottom: 200px;
+}
+.work img{
+    margin-left: 700px;
+    position: absolute;
+    top:200px;
+}
+.join h3{
+    margin-top: 100px;
+    margin-left: 550px ;
+    font-size: 24px;
+ }
+ .join p{
+     font-size: 20px;
+     margin-left: 200px;
+     margin-top:20px;
+ }
+ @media screen and (max-width:701px)
+{
+    nav ul{
+        position: absolute;
+          top:80px;
+          left:0px;
+          right:0px;
+          flex-direction: column;  
+          text-align: center;
+          
+          background-color:aqua;
+          gap:0px;
+          padding-bottom: 15px;
+          overflow: hidden;
+        
+       } 
+       nav ul li{
+        padding: 15px;
+     
+     }
+       .logo{
+        gap:10px;
+       }
+       .menu-icon{
+        display: block;
+        font-size: 24px;
+       }
+    #menulist{
+        transition: all 0.5s;
+    }
+     .work h3{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: -40px;
+     }
+     .work p{
+        margin-left: 5px;
+     }
+     .work img{
+        position: static;
+        margin-left: 0px;
+        margin-top: -100px;
+        width: 100%;
+     }
+     .join h3{
+        text-align: center;
+        margin-left: 0px;
+
+     }
+     .join p{
+        margin-left: 0px;
+     }
+     .image2{
+        margin-top:200px;
+        position: static;
+       }
+       .four{
+          
+          position: static;
+          margin-top:485px;
+          margin-left: 0px;
+       }
+      .line1{
+      
+          margin-left:15px;
+          margin-top:-1400px;
+          position: relative;
+      }
+      .ourservices{
+          margin-left: 15px;
+          margin-top:0px;
+          position: relative;
+      }
+      .line2{
+          margin-left: 15px;
+          margin-top:20px;
+          position: relative;
+      }
+      .company{
+          margin-left: 15px;
+          margin-top:0px;
+          position: relative;
+      }
+      .line3{
+          margin-left: 15px;
+          margin-top:20px;
+          position: relative;
+      }
+      .resources{
+          margin-left: 15px;
+          margin-top:0px;
+          position: relative;
+      }
+      .line4{
+          margin-left: 15px;
+          margin-top:60px;
+          position: relative;
+      }
+      .followus{
+          margin-left: 15px;
+          margin-top:0px;
+          position: relative;
+
+      }
+      .last{
+          margin-left:0px;
+          top:1000px;
+      }
+      .whatsapp{
+             margin-left:0px;
+             top:1580px;
+             position: relative;
+             
+      }
+      .insta{
+          margin-left:10px;
+          top:1580px;
+          position: relative;
+      }
+      .fb{
+          margin-left:10px;
+          top:1580px;
+          position: relative;
+      }
+      .call{
+          margin-left:-90px;
+          top:1640px;
+          position: relative;
+      }
+      .linkedin{
+          margin-left:-110px;
+          top:1700px;
+          bottom:10px;
+          position: relative;
+      }
+      .utube{
+          margin-left:10px;
+          top:1700px;
+          bottom:10px;
+          position: relative;
+      }
+      .twitter{
+          margin-left:10px;
+          top:1700px;
+          bottom:10px;
+          position: relative;
+      }  
+    }
+    @media screen and (max-width:1024px  )
+{
+header{
+    height:50px;
+    margin-right:-340px;
+} 
+.nav-bar{
+    margin-right:-340px;
+}
+.nav-bar ul li a{
+    font-size: 24px;
+}
+.four{
+    position: absolute;
+    top:920px;
+}
+.resources {
+    width: 400px;
+}
+.followus{
+    width: 100px;
+}
+}
