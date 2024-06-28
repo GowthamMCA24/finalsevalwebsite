@@ -237,7 +237,7 @@ nav ul li a:hover{
         margin-top: 15px;
      }
      .development1{
-        position: relative;
+        position: static;
         width:100%;
         margin-left: 0px;
         margin-top:10px;
@@ -249,8 +249,8 @@ nav ul li a:hover{
         margin-left: 0px;
      }
      .testing1{
-        position: relative;
-        margin-left: -10px;
+        position: static;
+        margin-left: 0px;
         margin-top:10px;
         width: 100%;
      }
@@ -259,7 +259,7 @@ nav ul li a:hover{
         position: relative;
        }
        .four{
-          margin-top:100px;
+          margin-top:0px;
           position: relative ;
        }
       .line1{
@@ -310,40 +310,40 @@ nav ul li a:hover{
       }
       .whatsapp{
              margin-left:0px;
-             top:-160px;
+             top:1560px;
              position: relative;
              
       }
       .insta{
           margin-left:10px;
-          top:-160px;
+          top:1560px;
           position: relative;
       }
       .fb{
           margin-left:10px;
-          top:-160px;
+          top:1560px;
           position: relative;
       }
       .call{
           margin-left:-90px;
-          top:-80px;
+          top:1620px;
           position: relative;
       }
       .linkedin{
           margin-left:-110px;
-          top:-10px;
+          top:1680px;
           bottom:10px;
           position: relative;
       }
       .utube{
           margin-left:20px;
-          top:-10px;
+          top:1680px;
           bottom:10px;
           position: relative;
       }
       .twitter{
           margin-left:20px;
-          top:-10px;
+          top:1680px;
           bottom:10px;
           position: relative;
       }  
