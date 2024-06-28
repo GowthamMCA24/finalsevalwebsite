@@ -308,81 +308,101 @@ main p{
     
   }
   .image2{
-  top:200px;
-  position: relative;
+    position: absolute;
+    top:1700px;
+    left: 0px;
+   }
+   .four{
+     margin-top:230px;
+     position: absolute;
+   }
+  .line1{
+  
+      margin-left:15px;
+      margin-top:-1100px;
+      position: relative;
+  }
+  .ourservices{
+      margin-left: 15px;
+      margin-top:0px;
+      position: relative;
+  }
+  .ourservices h3{
+         margin-left: 0px;
+  }
+  .line2{
+      margin-left: 15px;
+      margin-top:20px;
+      position: relative;
+  }
+  .company{
+      margin-left: 15px;
+      margin-top:0px;
+      position: relative;
+  }
+  .line3{
+      margin-left: 15px;
+      margin-top:20px;
+      position: relative;
+  }
+  .resources{
+      margin-left: 15px;
+      margin-top:0px;
+      position: relative;
+  }
+  .line4{
+      margin-left: 15px;
+      margin-top:60px;
+      position: relative;
+  }
+  .followus{
+      margin-left: 15px;
+      margin-top:0px;
+      position: relative;
+ 
+  }
+  .last{
+      margin-left:0px;
+      top:1000px;
+  }
+  .whatsapp{
+         margin-left:0px;
+         top:1700px;
+         position: relative;
+         
+  }
+  .insta{
+      margin-left:10px;
+      top:1700px;
+      position: relative;
+  }
+  .fb{
+      margin-left:10px;
+      top:1700px;
+      position: relative;
+  }
+  .call{
+      margin-left:-95px;
+      top:1760px;
+      position: relative;
+  }
+  .linkedin{
+      margin-left:-100px;
+      top:1820px;
+      bottom:20px;
+      position: relative;
+  }
+  .utube{
+      margin-left:20px;
+      top:1820px;
+      bottom:10px;
+      position: relative;
+  }
+  .twitter{
+      margin-left:20px;
+      top:1820px;
+      bottom:10px;
+      position: relative;
+  }  
  }
- .four{
-    margin-top:200px;
-    position: relative ;
- }
-.line1{
-
-    margin-left:15px;
-    margin-top:495px;
-}
-.ourservices{
-    margin-left: 15px;
-    margin-top:495px;
-}
-.line2{
-    margin-left: 15px;
-    margin-top:710px;
-}
-.company{
-    margin-left: 15px;
-    margin-top:710px;
-}
-.line3{
-    margin-left: 15px;
-    margin-top:930px;
-}
-.resources{
-    margin-left: 15px;
-    margin-top:930px;
-}
-.line4{
-    margin-left: 15px;
-    margin-top:1130px;
-}
-.followus{
-    margin-left: 15px;
-    margin-top:1130px;
-}
-.last{
-    margin-left:0px;
-    top:1000px;
-}
-.whatsapp{
-       margin-left:0px;
-       top:2960px;
-}
-.insta{
-    margin-left:70px;
-    top:2960px;
-}
-.fb{
-    margin-left:140px;
-    top:2960px;
-}
-.call{
-    margin-left:70px;
-    top:2970px;
-}
-.linkedin{
-    margin-left:0px;
-    top:2980px;
-    bottom:10px;
-}
-.utube{
-    margin-left:70px;
-    top:2980px;
-    bottom:10px;
-}
-.twitter{
-    margin-left:140px;
-    top:2980px;
-    bottom:10px;
-}}
-
-
-
+ 
